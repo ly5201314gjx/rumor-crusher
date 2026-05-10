@@ -1,0 +1,244 @@
+{
+  "skill": {
+    "name": "谣言粉碎机",
+    "version": "3.0.0",
+    "author": "AI Assistant - 深度优化版",
+    "description": "高级谣言检测与事实核查系统 v3.0 - 32大核心算法驱动，覆盖语言学/词源学/学术验证/多步推理链",
+    "category": ["fact-checking", "rumor-detection", "linguistics", "etymology", "academic-verification", "chain-of-verification"],
+    "tags": ["谣言检测", "事实核查", "语言学鉴别", "词源分析", "语系谱树", "学术验证", "多步推理", "自验证循环"],
+    "created_at": "2026-05-10",
+    "updated_at": "2026-05-10",
+    "changelog": {
+      "v3.0": "新增语言学常识库、语言谱系树查询器、词源分析器、学术文献验证器、多步推理链、三级报告模式"
+    }
+  },
+
+  "optimizations": {
+    "opt1_data_sources": {
+      "version": "3.0",
+      "enabled": true,
+      "description": "接入底层专业数据源 - 学术文献层+语言学知识层+辟谣数据库层",
+      "components": {
+        "linguistic_facts_db": {
+          "path": "data/linguistic_facts.json",
+          "description": "内置语言学常识库，含语系分类、英语历史、文言文特征、常见谣言破斥",
+          "coverage": "241条结构化语言学知识"
+        },
+        "etymology_cache_db": {
+          "path": "data/etymology_cache.json",
+          "description": "英语词汇真实词源缓存，含与汉语关系的辟谣分析",
+          "coverage": "77条词源条目，持续扩展中"
+        },
+        "linguistic_tree": {
+          "description": "语言谱系树查询器，秒级判断任意两种语言的亲缘关系",
+          "languages_indexed": 41
+        },
+        "academic_verifier": {
+          "description": "学术文献验证器，对接Crossref API，支持DOI查询和关键词搜索",
+          "peer_reviewed_source": "crossref.org"
+        },
+        "etymology_analyzer": {
+          "description": "词源分析器，辨别借词与同源，破解'yellow=叶落'类谣言",
+          "common_coincidences": 19
+        }
+      }
+    },
+    "opt3_verification_chain": {
+      "version": "3.0",
+      "enabled": true,
+      "description": "多步推理链（Chain of Verification）- 自验证循环",
+      "pipeline": [
+        "Step 1: 初步结论生成 → 基础分析评分",
+        "Step 2: 自动质疑（红队攻击）→ 生成对抗性质疑点",
+        "Step 3: 针对性验证 → 内建知识+搜索双重验证",
+        "Step 4: 结论修正 → 评分调整与置信度更新",
+        "Step 5: 可信度自评分 → 对推理过程本身评分"
+      ],
+      "adversarial_check_types": ["counter_argument", "terminology_clarification", "sample_size_check", "typology_fallacy", "timeline_check"]
+    },
+    "opt6_user_experience": {
+      "version": "3.0",
+      "enabled": true,
+      "description": "三级核查模式体验升级",
+      "modes": {
+        "quick": {"name": "快速闪查", "output_time": "<8秒", "suitable_for": "朋友圈/家族群即时核查"},
+        "standard": {"name": "标准核查", "output_time": "<20秒", "suitable_for": "需要详细分析的场景"},
+        "deep": {"name": "深度溯源", "output_time": "<50秒", "suitable_for": "全面溯源+学术比对+变种预测"}
+      }
+    },
+    "opt7_engineering": {
+      "version": "3.0",
+      "enabled": true,
+      "description": "工程化升级 - 模块化+数据层+依赖管理",
+      "new_modules": [
+        "utils/text_utils.py: 文本处理工具函数集",
+        "utils/linguistic_tree.py: 语言谱系树查询器",
+        "utils/etymology_analyzer.py: 词源分析器",
+        "utils/evidence_chain.py: 多步推理链构建器",
+        "utils/report_v3.py: 三级报告生成器",
+        "utils/academic_verifier.py: 学术文献验证器"
+      ],
+      "new_databases": [
+        "data/linguistic_facts.json: 语言学常识库",
+        "data/etymology_cache.json: 词源缓存库"
+      ]
+    }
+  },
+
+  "algorithms": {
+    "source_tracer": {
+      "version": "2.0",
+      "enabled": true,
+      "max_depth": 5,
+      "cross_platform": true,
+      "timeout_seconds": 30,
+      "engines": ["google", "bing", "baidu", "duckduckgo"],
+      "v3_upgrade": "新增语言学源头过滤"
+    },
+    "credibility_scorer": {
+      "version": "2.0",
+      "scores": {
+        "domain_authority_max": 25,
+        "cross_verification_max": 30,
+        "source_transparency_max": 15,
+        "expertise_match_max": 15,
+        "historical_accuracy_max": 15
+      },
+      "thresholds": {
+        "reliable": 80,
+        "questionable": 50,
+        "unreliable": 30
+      },
+      "v3_upgrade": "新增语言学知识库评分增强"
+    },
+    "linguistic_detector": {
+      "version": "2.0",
+      "dimensions": {
+        "clickbait_weight": 0.25,
+        "emotional_manipulation_weight": 0.25,
+        "pseudoscience_pattern_weight": 0.25,
+        "logical_fallacy_weight": 0.25
+      },
+      "v3_upgrade": "新增语系谬误检测、词源巧合检测"
+    },
+    "cross_validator": {
+      "version": "2.0",
+      "min_cross_references": 3,
+      "independence_required": true,
+      "temporal_consistency_check": true,
+      "v3_upgrade": "新增学术文献交叉验证通道"
+    },
+    "evidence_chain": {
+      "version": "3.0",
+      "enabled": true,
+      "algorithm_id": "ALG09",
+      "name": "多步推理链（Chain of Verification）",
+      "description": "自验证循环：初步结论→自动质疑→针对性验证→结论修正→可信度自评分",
+      "steps": 5,
+      "adversarial_check_types": ["counter_argument", "terminology_clarification", "sample_size_check", "typology_fallacy", "timeline_check"],
+      "min_confidence_for_pass": 0.7
+    },
+    "linguistic_tree_query": {
+      "version": "3.0",
+      "algorithm_id": "ALG10",
+      "name": "语言谱系秒查",
+      "description": "基于内置语言学常识库，秒级判断任意两个语言的语系关系",
+      "languages_indexed": 41
+    },
+    "etymology_analyzer": {
+      "version": "3.0",
+      "algorithm_id": "ALG11",
+      "name": "词源分析与借词鉴别",
+      "description": "分析英语词汇真实词源，辨别'借词'和'同源'的区别",
+      "common_myth_pairs": 19,
+      "warning_signals": 6
+    },
+    "academic_verifier": {
+      "version": "3.0",
+      "algorithm_id": "ALG12",
+      "name": "学术文献验证",
+      "description": "通过Crossref API搜索学术文献，评估学术共识",
+      "source": "crossref.org"
+    },
+    "report_generator_v3": {
+      "version": "3.0",
+      "algorithm_id": "ALG13",
+      "name": "三级报告生成",
+      "formats": ["quick_check", "standard_report", "deep_trace"],
+      "include_evidence_links": true,
+      "include_source_scores": true,
+      "include_counter_narrative": true,
+      "max_references": 20,
+      "modes": {
+        "quick": {"target_seconds": 8, "sections": 4},
+        "standard": {"target_seconds": 20, "sections": 6},
+        "deep": {"target_seconds": 50, "sections": 12}
+      }
+    }
+  },
+
+  "configurations": {
+    "defaults": {
+      "mode": "standard",
+      "enable_deep_chain": true,
+      "enable_etymology": true,
+      "enable_academic": false,
+      "cross_reference_min": 3,
+      "include_recommendations": true,
+      "language": "zh-CN",
+      "save_report": true
+    },
+    "logging": {
+      "level": "INFO",
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+      "file": "rumor_crusher_v3.log"
+    }
+  },
+
+  "dependencies": {
+    "required_packages": [
+      "various_search",
+      "google_search",
+      "duckduckgo",
+      "tavily",
+      "extended_http_tools",
+      "code_runner",
+      "extended_file_tools",
+      "crossref"
+    ],
+    "python_packages": [
+      "numpy>=1.24.0",
+      "scikit-learn>=1.3.0",
+      "jieba>=0.42.1",
+      "networkx>=3.0",
+      "simhash>=2.1.0"
+    ],
+    "v3_new_packages": [
+      "crossref: Crossref学术文献查询",
+      "google_search: Google Scholar接入"
+    ]
+  },
+
+  "examples": {
+    "quick_check": {
+      "description": "⚡ 快速闪查一条消息",
+      "command": "闪查：[消息内容]"
+    },
+    "standard_analysis": {
+      "description": "📋 标准核查分析",
+      "command": "查一下：[文本/链接]"
+    },
+    "deep_trace": {
+      "description": "🕵️ 深度溯源分析",
+      "command": "深度溯源：[文本/链接]"
+    },
+    "linguistic_check": {
+      "description": "🌐 语言相关谣言核查（优化1特色）",
+      "command": "查一下：英语语法起源于文言文这个说法是真的吗"
+    },
+    "etymology_check": {
+      "description": "📖 词源分析（优化1特色）",
+      "command": "查一下：yellow真来源于叶落吗"
+    }
+  }
+}
