@@ -1,0 +1,85 @@
+{
+  "trusted_domains": {
+    "highly_reliable": {
+      "default_score": 95,
+      "domains": [
+        "gov.cn", "www.gov.cn", "cctv.com", "xinhuanet.com",
+        "people.com.cn", "chinanews.com", "gmw.cn", "cnr.cn",
+        "who.int", "un.org", "unicef.org", "worldbank.org",
+        "reuters.com", "ap.org", "bbc.com", "nature.com",
+        "science.org", "cell.com", "nejm.org", "thelancet.com",
+        "edu.cn", "ac.cn", "cas.cn"
+      ]
+    },
+    "reliable": {
+      "default_score": 80,
+      "domains": [
+        "thepaper.cn", "caixin.com", "yicai.com", "jiemian.com",
+        "163.com", "sina.com.cn", "sohu.com", "ifeng.com",
+        "qq.com", "huanqiu.com", "cankaoxiaoxi.com",
+        "wikipedia.org", "britannica.com",
+        "ieee.org", "acm.org", "springer.com", "elsevier.com"
+      ]
+    },
+    "moderately_reliable": {
+      "default_score": 60,
+      "domains": [
+        "zhihu.com", "bilibili.com", "weibo.com",
+        "csdn.net", "cnblogs.com", "jianshu.com",
+        "medium.com", "36kr.com", "huxiu.com",
+        "geekpark.net", "pingwest.com"
+      ]
+    },
+    "unverified": {
+      "default_score": 30,
+      "domains": [
+        "tieba.baidu.com", "douban.com",
+        "xiaohongshu.com", "kuaishou.com"
+      ]
+    },
+    "known_misinformation": {
+      "default_score": -20,
+      "domains": [
+        "fakenews.example.com"
+      ],
+      "patterns": [
+        "*.clickbait.*", "*.sponsored.*", "*.advert.*"
+      ]
+    }
+  },
+  "trusted_accounts": {
+    "official_media": [
+      "人民日报", "央视新闻", "新华社", "环球时报", "光明日报",
+      "中国日报", "科技日报", "中国青年报", "经济日报"
+    ],
+    "fact_checkers": [
+      "中国互联网联合辟谣平台", "科普中国", "腾讯较真",
+      "丁香医生", "果壳", "知识分子"
+    ],
+    "academic_institutions": [
+      "中国科学院", "中国工程院", "清华大学", "北京大学",
+      "中国科学技术协会"
+    ]
+  },
+  "source_evaluation_criteria": {
+    "editorial_standards": {
+      "has_fact_checking": 5,
+      "has_correction_policy": 5,
+      "separates_news_and_opinion": 3,
+      "clear_advertising_labels": 2
+    },
+    "transparency": {
+      "named_author": 5,
+      "identified_organization": 5,
+      "clear_citations": 5,
+      "publication_date": 3
+    },
+    "track_record": {
+      "established_10_years_plus": 5,
+      "industry_awards": 3,
+      "major_errors_known": -10,
+      "public_corrections": 5
+    }
+  },
+  "last_updated": "2026-05-10"
+}
