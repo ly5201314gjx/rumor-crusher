@@ -1,0 +1,72 @@
+{
+  "clickbait_patterns": {
+    "shock_patterns": [
+      {"pattern": "惊呆", "weight": 0.9},
+      {"pattern": "出大事了", "weight": 0.95},
+      {"pattern": "震惊", "weight": 0.8},
+      {"pattern": "吓傻了", "weight": 0.85},
+      {"pattern": "哭晕了", "weight": 0.7},
+      {"pattern": "泪目", "weight": 0.6},
+      {"pattern": "看哭了", "weight": 0.7},
+      {"pattern": "疯传", "weight": 0.8},
+      {"pattern": "刷屏了", "weight": 0.85},
+      {"pattern": "炸锅了", "weight": 0.9},
+      {"pattern": "刚刚发生", "weight": 0.75},
+      {"pattern": "突发", "weight": 0.7},
+      {"pattern": "紧急", "weight": 0.85}
+    ],
+    "urgency_patterns": [
+      {"pattern": "速看", "weight": 0.8},
+      {"pattern": "马上删除", "weight": 0.9},
+      {"pattern": "删前速看", "weight": 0.95},
+      {"pattern": "再不看就晚了", "weight": 0.85},
+      {"pattern": "紧急扩散", "weight": 0.9},
+      {"pattern": "必须转", "weight": 0.8},
+      {"pattern": "赶紧看", "weight": 0.7}
+    ],
+    "emotional_blackmail_patterns": [
+      {"pattern": "不转不是中国人", "weight": 0.95},
+      {"pattern": "是中国人就转", "weight": 0.9},
+      {"pattern": "有良心的都转了", "weight": 0.85},
+      {"pattern": "转一次救一个人", "weight": 0.8},
+      {"pattern": "为了家人请转", "weight": 0.7},
+      {"pattern": "为家人保存", "weight": 0.6}
+    ],
+    "false_promise_patterns": [
+      {"pattern": "第一个好消息", "weight": 0.6},
+      {"pattern": "不看你就亏了", "weight": 0.75},
+      {"pattern": "看到了是福气", "weight": 0.7},
+      {"pattern": "终于公布了", "weight": 0.8},
+      {"pattern": "内部消息", "weight": 0.85}
+    ],
+    "quantification_abuse": [
+      {"pattern": "99%的人不知道", "weight": 0.9},
+      {"pattern": "99.9%的人都错了", "weight": 0.9},
+      {"pattern": "10亿人都震惊了", "weight": 0.85},
+      {"pattern": "轰动全世界", "weight": 0.8},
+      {"pattern": "全中国都在传", "weight": 0.85}
+    ],
+    "deepak_style_sentences": [
+      "看到第X条我哭了",
+      "看完你还敢XX吗",
+      "千万别XX，后果太可怕了",
+      "XX的真相原来是这个",
+      "太可怕了，快告诉家人",
+      "这种XX千万别再吃了",
+      "家里有XX的注意了",
+      "XX就在你身边，千万小心"
+    ]
+  },
+  "score_weights": {
+    "shock_weight": 0.35,
+    "urgency_weight": 0.20,
+    "emotional_blackmail_weight": 0.25,
+    "false_promise_weight": 0.10,
+    "quantification_abuse_weight": 0.10
+  },
+  "clickbait_thresholds": {
+    "high_clickbait": 0.7,
+    "medium_clickbait": 0.4,
+    "low_clickbait": 0.2
+  }
+}
