@@ -1,0 +1,169 @@
+{
+  "rumor_families": [
+    {
+      "family_id": "RF001",
+      "family_name": "食物相克类谣言",
+      "category": "health_medical",
+      "first_seen": "2019-03-15",
+      "last_seen": "2026-05-01",
+      "total_variants": 47,
+      "core_narrative": "两种常见食物一起吃会产生有害物质",
+      "template_structures": ["绝对断言+恐吓+转发诱导"],
+      "emotional_signature": {"fear": 0.85, "anger": 0.1, "urgency": 0.75},
+      "known_variants": [
+        {"text": "菠菜和豆腐一起吃会得肾结实", "year": 2019, "platform": "微博"},
+        {"text": "菠菜和豆腐一起吃等于毒药", "year": 2020, "platform": "朋友圈"},
+        {"text": "豆腐千万不能和菠菜一起吃", "year": 2020, "platform": "抖音"},
+        {"text": "菠菜加豆腐等于慢性自杀", "year": 2021, "platform": "微信"},
+        {"text": "早上吃菠菜晚上吃豆腐会中毒", "year": 2022, "platform": "微信群"},
+        {"text": "专家警告：豆腐和5种食物相克", "year": 2023, "platform": "公众号"},
+        {"text": "医生从来不吃的食物搭配", "year": 2024, "platform": "小红书"},
+        {"text": "这三种食物千万不能一起吃", "year": 2025, "platform": "抖音"},
+        {"text": "每天一个鸡蛋配豆腐后果自负", "year": 2026, "platform": "家庭群"}
+      ],
+      "debunked": true,
+      "debunk_source": "中国互联网联合辟谣平台",
+      "mutation_rate": "每年4-6个新变种",
+      "next_prediction": "可能变异方向：海鲜+维生素C=砒霜类",
+      "spread_pattern": "周期性复发",
+      "cycle_months": 6
+    },
+    {
+      "family_id": "RF002",
+      "family_name": "癌症恐慌类谣言",
+      "category": "health_medical",
+      "first_seen": "2018-06-01",
+      "last_seen": "2026-04-15",
+      "total_variants": 38,
+      "core_narrative": "某种日常用品/食品导致癌症",
+      "template_structures": ["伪科学数据+恐惧煽动+转发呼吁"],
+      "emotional_signature": {"fear": 0.95, "anger": 0.5, "urgency": 0.8},
+      "known_variants": [
+        {"text": "微波炉加热食物致癌", "year": 2018, "platform": "微博"},
+        {"text": "塑料瓶装水放车里会致癌", "year": 2019, "platform": "朋友圈"},
+        {"text": "隔夜茶致癌千万别喝", "year": 2020, "platform": "微信"},
+        {"text": "染发剂使用一年致癌率达99%", "year": 2021, "platform": "抖音"},
+        {"text": "手机充电一整夜会致癌", "year": 2022, "platform": "微信群"},
+        {"text": "这种油炒菜等于在吃致癌物", "year": 2023, "platform": "公众号"},
+        {"text": "厨房里这东西比砒霜还毒", "year": 2024, "platform": "朋友圈"},
+        {"text": "超市最常见的6种致癌食物", "year": 2025, "platform": "抖音"},
+        {"text": "洗澡时千万别做这件事致癌", "year": 2026, "platform": "家庭群"}
+      ],
+      "debunked": false,
+      "debunk_source": "",
+      "mutation_rate": "每年3-5个新变种",
+      "next_prediction": "可能变异方向：穿戴类（内衣/手表）致癌",
+      "spread_pattern": "持续扩散",
+      "cycle_months": 3
+    },
+    {
+      "family_id": "RF003",
+      "family_name": "名人死亡/出事类谣言",
+      "category": "social_news",
+      "first_seen": "2014-01-01",
+      "last_seen": "2026-05-08",
+      "total_variants": 120,
+      "core_narrative": "某位名人不幸去世/意外/被捕",
+      "template_structures": ["震惊体标题+模糊来源+情感冲击"],
+      "emotional_signature": {"fear": 0.6, "shock": 0.9, "grief": 0.7},
+      "known_variants": [],
+      "debunked": true,
+      "debunk_source": "各工作室/经纪公司",
+      "mutation_rate": "每年20+个",
+      "next_prediction": "随热点事件自动寄生",
+      "spread_pattern": "事件驱动型",
+      "cycle_months": 1
+    },
+    {
+      "family_id": "RF004",
+      "family_name": "政策误读类谣言",
+      "category": "political",
+      "first_seen": "2015-01-01",
+      "last_seen": "2026-05-07",
+      "total_variants": 56,
+      "core_narrative": "政府出台新政策颠覆日常生活",
+      "template_structures": ["权威口吻+紧迫时间+恐慌扩散"],
+      "emotional_signature": {"fear": 0.8, "anger": 0.4, "urgency": 0.9},
+      "known_variants": [
+        {"text": "XX月XX日起全国禁止XX", "year": 2015, "platform": "微信群"},
+        {"text": "国家最新规定，不看亏大了", "year": 2020, "platform": "朋友圈"},
+        {"text": "社保新政策，这类人不能领", "year": 2022, "platform": "抖音"},
+        {"text": "中央发钱了，赶紧去领", "year": 2023, "platform": "微信群"},
+        {"text": "医保改革后这些项目不报销", "year": 2024, "platform": "家庭群"},
+        {"text": "退休金要停发了紧急通知", "year": 2025, "platform": "微信"},
+        {"text": "国家要收房产税了赶紧卖房", "year": 2026, "platform": "抖音"}
+      ],
+      "debunked": true,
+      "debunk_source": "各级政府辟谣平台",
+      "mutation_rate": "随政策发布而爆发",
+      "next_prediction": "可能寄生最新的民生政策",
+      "spread_pattern": "政策驱动型",
+      "cycle_months": 2
+    },
+    {
+      "family_id": "RF005",
+      "family_name": "紧急求救/骗捐类谣言",
+      "category": "social_news",
+      "first_seen": "2016-01-01",
+      "last_seen": "2026-04-20",
+      "total_variants": 32,
+      "core_narrative": "某地/某人遭遇不幸急需帮助",
+      "template_structures": ["故事+情感渲染+捐款账号"],
+      "emotional_signature": {"sympathy": 0.95, "anger": 0.3, "hopelessness": 0.8},
+      "known_variants": [
+        {"text": "XX小孩走失求转发", "year": 2016, "platform": "微博"},
+        {"text": "XX大学生急需XX型血", "year": 2018, "platform": "朋友圈"},
+        {"text": "XX医院急需XX救命", "year": 2020, "platform": "微信群"},
+        {"text": "山区孩子需要旧衣服", "year": 2022, "platform": "抖音"},
+        {"text": "XX地发生灾难急需赈灾", "year": 2024, "platform": "微博"}
+      ],
+      "debunked": true,
+      "debunk_source": "各地警方通报",
+      "mutation_rate": "每年2-3个",
+      "next_prediction": "寄生真实灾难事件（已验证模式）",
+      "spread_pattern": "情绪驱动型",
+      "cycle_months": 4
+    }
+  ],
+  "mutation_patterns": [
+    {
+      "pattern": "主体替换",
+      "description": "替换谣言中的主体对象（如食材、人名）保持结构不变",
+      "example": "菠菜+豆腐→菠菜+牛奶→鸡蛋+豆腐"
+    },
+    {
+      "pattern": "程度升级",
+      "description": "不断夸大危害程度，从"不好"→"有害"→"剧毒"→"致死"",
+      "example": "不好→有害→中毒→死亡"
+    },
+    {
+      "pattern": "场景迁移",
+      "description": "将谣言场景转移到新的日常场景",
+      "example": "厨房→浴室→卧室→办公室"
+    },
+    {
+      "pattern": "权威包装",
+      "description": "不断更换权威背书，从"专家"到"央视"到"医生"",
+      "example": "专家→医生→央视→世界卫生组织"
+    },
+    {
+      "pattern": "时间重置",
+      "description": "将旧谣言修改日期后重新发布",
+      "example": "2019年新闻改成2026年"
+    },
+    {
+      "pattern": "平台适配",
+      "description": "同一谣言在不同平台改换格式和话术风格",
+      "example": "微信长文→抖音短视频→小红书图文"
+    }
+  ],
+  "mutation_cycle_stats": {
+    "avg_lifespan_years": 5.2,
+    "avg_variants_per_family": 42,
+    "avg_mutation_interval_months": 4.7,
+    "recurrence_rate": "68%谣言家族会周期性复发",
+    "peak_seasons": ["春节前后", "流感季节", "重大政策发布期"],
+    "cross_platform_delay_days": {"weibo_to_wechat": 7, "wechat_to_douyin": 14, "douyin_to_zhihu": 21}
+  },
+  "last_updated": "2026-05-10"
+}
