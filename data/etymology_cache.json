@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "name": "词源查询缓存",
+    "version": "1.0.0",
+    "description": "缓存已查询过的词源结果，避免重复搜索",
+    "last_updated": "2026-05-10",
+    "max_entries": 500
+  },
+  "english_word_origins": {
+    "yellow": {
+      "word": "yellow",
+      "origin": "古英语 geolu, geolwe < 原始日耳曼语 *gelwaz < 原始印欧语 *ghel-（意为'明亮、闪光'）",
+      "cognates": ["德语 gelb", "荷兰语 geel", "古斯堪的纳维亚语 gulr", "拉丁语 helvus"],
+      "chinese_connection": "无。与'叶落'无关，'leaf fall'（叶落）在英语中是现代短语，并非词源。",
+      "debunk": "yellow ← '叶落' 是典型的语音巧合谬误。yellow源自原始印欧语 *ghel-（闪亮/金色），对应的拉丁语词根出现在'gold'(金)中。"
+    },
+    "shop": {
+      "word": "shop",
+      "origin": "古英语 sceoppa（摊位、货摊）< 原始日耳曼语 *skopp-（小棚子）",
+      "cognates": ["德语 Schuppen（棚子）", "荷兰语 schop"],
+      "chinese_connection": "无。与'商铺'无关。",
+      "debunk": "shop ← '商铺' 是语音巧合。shop在古英语中已存在（公元8世纪），远早于现代汉语'商铺'一词的形成。shop与'商'(shāng)发音差异也很大。"
+    },
+    "heart": {
+      "word": "heart",
+      "origin": "古英语 heorte < 原始日耳曼语 *hertōn < 原始印欧语 *ḱerd-（心）",
+      "cognates": ["德语 Herz", "荷兰语 hart", "拉丁语 cor", "希腊语 kardia", "俄语 сердце"],
+      "chinese_connection": "无。与'核的'无关。",
+      "debunk": "heart ← '核的' 是牵强附会。heart与印欧语系其他语言的同源词关系非常清晰。"
+    },
+    "head": {
+      "word": "head",
+      "origin": "古英语 hēafod < 原始日耳曼语 *haubid < 原始印欧语 *káput-（头）",
+      "cognates": ["德语 Haupt", "荷兰语 hoofd", "拉丁语 caput", "英语capital同源"],
+      "chinese_connection": "无。",
+      "debunk": "head与heart配对称为'核的'是无根据的。两个词分属不同词源。"
+    },
+    "mother": {
+      "word": "mother",
+      "origin": "古英语 mōdor < 原始日耳曼语 *mōdēr < 原始印欧语 *méh₂tēr（母亲）",
+      "cognates": ["德语 Mutter", "荷兰语 moeder", "拉丁语 mater", "希腊语 mētēr", "梵语 mātṛ"],
+      "chinese_connection": "无。全球许多语言中'm-'-开头的母亲词可能与婴儿早期发音有关（babble hypothesis），不代表同源。",
+      "debunk": "婴儿发音 mama/papa 在多种语言中的相似性是生理现象，不是语言同源的证据。"
+    },
+    "father": {
+      "word": "father",
+      "origin": "古英语 fæder < 原始日耳曼语 *fadēr < 原始印欧语 *ph₂tḗr（父亲）",
+      "cognates": ["德语 Vater", "拉丁语 pater", "希腊语 patēr", "梵语 pitṛ"],
+      "chinese_connection": "无。"
+    },
+    "tea": {
+      "word": "tea",
+      "origin": "源自闽南话 tê（茶）",
+      "cognates": ["荷兰语 thee", "德语 Tee"],
+      "chinese_connection": "这是货真价实的汉语借词！但属于借词，不是同源。",
+      "note": "这是一个真实借词案例，通过荷兰东印度公司贸易传入欧洲。借词≠同源。"
+    },
+    "one": {
+      "word": "one",
+      "origin": "古英语 ān < 原始日耳曼语 *ainaz < 原始印欧语 *óynos（一）",
+      "cognates": ["德语 eins", "荷兰语 een", "拉丁语 unus", "希腊语 oinos（古）", "梵语 eka"],
+      "chinese_connection": "与汉语'一'的发音完全不同",
+      "key_evidence": "数词是语言中最稳定的核心词汇。英语数词（one, two, three...）与汉语数词（一、二、三...）无任何相似性，证明两大语言没有亲缘关系。"
+    },
+    "two": {
+      "word": "two",
+      "origin": "古英语 twā < 原始日耳曼语 *twai < 原始印欧语 *dwóh₁（二）",
+      "cognates": ["德语 zwei", "荷兰语 twee", "拉丁语 duo", "希腊语 dyo", "梵语 dvá"]
+    },
+    "three": {
+      "word": "three",
+      "origin": "古英语 þrīe < 原始日耳曼语 *þrīz < 原始印欧语 *tréyes（三）",
+      "cognates": ["德语 drei", "荷兰语 drie", "拉丁语 trēs", "希腊语 treis"]
+    }
+  },
+  "recent_queries": {}
+}
