@@ -1,0 +1,157 @@
+{
+  "rumor_patterns": [
+    {
+      "pattern_id": "RP001",
+      "name": "震惊体标题",
+      "type": "clickbait",
+      "keywords": ["惊呆", "出大事了", "紧急通知", "速看", "删前速看", "全在传", "朋友圈都在转", "不转不是中国人"],
+      "severity": "medium",
+      "description": "使用过度夸张的惊叹词吸引点击"
+    },
+    {
+      "pattern_id": "RP002",
+      "name": "伪科学医疗建议",
+      "type": "pseudoscience_health",
+      "keywords": ["研究表明", "某国科学家发现", "专家揭秘", "祖传秘方", "老祖宗的智慧", "排毒", "酸碱体质", "抗癌神药"],
+      "severity": "high",
+      "description": "引用不具名的专家或研究，传播虚假医疗信息"
+    },
+    {
+      "pattern_id": "RP003",
+      "name": "绝对化断言",
+      "type": "absolute_claim",
+      "keywords": ["100%", "绝对", "永远", "再也没有", "一定会", "注定", "没人能逃过"],
+      "severity": "medium",
+      "description": "使用绝对化的断言，缺乏科学应有的概率思维"
+    },
+    {
+      "pattern_id": "RP004",
+      "name": "情感绑架转发",
+      "type": "emotional_blackmail",
+      "keywords": ["是中国人就转", "有良心的都转了", "不转不是人", "转一次就救一个人", "为了家人请转发"],
+      "severity": "high",
+      "description": "利用道德绑架/情感胁迫诱导转发"
+    },
+    {
+      "pattern_id": "RP005",
+      "name": "伪数据恐吓",
+      "type": "pseudo_data",
+      "keywords": ["99%的人不知道", "致癌率猛增", "死亡率高达", "发病率翻倍", "3亿人已中招"],
+      "severity": "high",
+      "description": "使用伪造或无法核实的统计数据制造恐惧"
+    },
+    {
+      "pattern_id": "RP006",
+      "name": "名人被死亡/出事",
+      "type": "celebrity_hoax",
+      "keywords": ["突然离世", "抢救无效", "意外身亡", "被紧急送医", "震惊娱乐圈"],
+      "severity": "high",
+      "description": "虚构名人死亡/事故信息博取流量"
+    },
+    {
+      "pattern_id": "RP007",
+      "name": "政策误读/假政策",
+      "type": "policy_misinfo",
+      "keywords": ["国家最新规定", "中央新政策", "即日起实施", "不看亏大了", "再不XX就晚了"],
+      "severity": "high",
+      "description": "曲解或编造政策信息制造恐慌"
+    },
+    {
+      "pattern_id": "RP008",
+      "name": "保健品虚假宣传",
+      "type": "health_product_scam",
+      "keywords": ["包治百病", "三天见效", "无任何副作用", "纯天然", "祖传秘方", "诺贝尔奖技术"],
+      "severity": "high",
+      "description": "使用无法验证的承诺进行产品虚假宣传"
+    },
+    {
+      "pattern_id": "RP009",
+      "name": "阴谋论话术",
+      "type": "conspiracy_theory",
+      "keywords": ["他们不让你知道", "真相被掩盖", "背后的大阴谋", "主流媒体都在说谎", "被屏蔽了"],
+      "severity": "high",
+      "description": "制造被压迫感，质疑所有官方信息"
+    },
+    {
+      "pattern_id": "RP010",
+      "name": "移花接木混淆",
+      "type": "context_mixing",
+      "keywords": ["配图与内容不匹配", "旧闻当新闻发", "国外场景说成国内"],
+      "severity": "high",
+      "description": "把不同时空的内容故意混淆误导"
+    },
+    {
+      "pattern_id": "RP011",
+      "name": "虚假求助/骗捐",
+      "type": "fake_donation",
+      "keywords": ["求扩散", "跪求帮助", "孩子得了重病", "家庭困难需要救助"],
+      "severity": "critical",
+      "description": "编造感人故事进行诈骗"
+    },
+    {
+      "pattern_id": "RP012",
+      "name": "金融理财骗局",
+      "type": "financial_scam",
+      "keywords": ["稳赚不赔", "月收益", "内部消息", "财富自由", "区块链革命", "数字黄金"],
+      "severity": "critical",
+      "description": "承诺高收益低风险的投资骗局"
+    },
+    {
+      "pattern_id": "RP013",
+      "name": "AI伪造内容",
+      "type": "ai_generated_fake",
+      "keywords": ["DeepFake", "AI换脸", "GPT生成", "合成图片", "伪造音频"],
+      "severity": "critical",
+      "description": "使用AI技术生成的虚假内容"
+    },
+    {
+      "pattern_id": "RP014",
+      "name": "伪权威背书",
+      "type": "fake_authority",
+      "keywords": ["某某协会认证", "某某专家推荐", "诺贝尔奖得主说"],
+      "severity": "high",
+      "description": "冒用权威机构/专家名义背书"
+    },
+    {
+      "pattern_id": "RP015",
+      "name": "食品安全恐慌",
+      "type": "food_safety",
+      "keywords": ["XX有毒", "XX致癌", "千万别吃", "超市里最常见的毒物", "你每天都在吃"],
+      "severity": "high",
+      "description": "传播没有科学依据的食品安全恐慌"
+    }
+  ],
+  "suspicious_phrases": {
+    "fear_triggering": [
+      "再不XX就晚了", "XX正在摧毁", "惊人真相", "被隐瞒的秘密",
+      "触目惊心", "毛骨悚然", "你还蒙在鼓里"
+    ],
+    "urgency_creating": [
+      "马上删除", "紧急扩散", "看到了赶紧", "仅限24小时", "过了就没了"
+    ],
+    "false_consensus": [
+      "所有人都", "无一例外", "大家都要", "公认的事实", "早有定论"
+    ],
+    "appeal_to_tradition": [
+      "老祖宗", "千百年", "祖传", "自古以来", "中医讲究"
+    ]
+  },
+  "verification_sources": {
+    "official_rumor_platforms": [
+      "中国互联网联合辟谣平台",
+      "科普中国",
+      "腾讯较真",
+      "丁香医生辟谣",
+      "央视新闻辟谣"
+    ],
+    "international_fact_checking": [
+      "Snopes",
+      "FactCheck.org",
+      "PolitiFact",
+      "Reuters Fact Check",
+      "AP Fact Check"
+    ]
+  },
+  "last_updated": "2026-05-10",
+  "total_patterns": 15
+}
